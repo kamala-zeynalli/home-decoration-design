@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item img {
+    height: auto;
+    width: auto;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 2%,rgba(0, 0, 0, 0.65) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 2%,rgba(0, 0, 0, 0.65) 100%);
+ }
+
+ .end {
+    height: 60px;
+    background-color: rgb(132, 132, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ img {
+    margin-left: 1rem;
+  }
+  p{
+      text-align: center;
+  }
